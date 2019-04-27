@@ -1,6 +1,6 @@
 def prime?(number)
 
-num.each(100) do |prime|
+number.each(100) do |prime|
   p prime
 end
 
