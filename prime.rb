@@ -1,8 +1,9 @@
 def prime?(n)
 
-(2..n/2).none?{|i| n % i == 0}
-else
-  false
+is_prime = true
+
+if n % i == 0
+  is prime = false
 end
 
 
